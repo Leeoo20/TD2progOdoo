@@ -7,10 +7,12 @@
     "data": ["views/students_views.xml",
              "views/training_views.xml",
              "views/mark_views.xml",
-             "data/students_training_data.xml",
-             "data/students_student_data.xml",
-             "data/students_mark_data.xml",
-             ],
+
+       #      "data/students_training_data.xml",
+        #     "data/students_student_data.xml",
+         #    "data/students_mark_data.xml",
+            ],
+
     "depends": ["base"],
     "installable": True,
     "Auto_install": False,

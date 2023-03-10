@@ -16,6 +16,17 @@
                          <field name="firstname"/>
                          <field name="lastname"/>
                      </group>
+                     <group>
+                     <field name="weighted_average"/>
+                     </group>
+                         <field name="mark_ids">
+                             <tree>
+                                <field name="subject"/>
+                                 <field name="mark"/>
+                                 <field name="coefficient"/>
+                                 <field name="weightedMark"/>
+                             </tree>
+                         </field>
                  </group>
              </sheet>
              </form>
@@ -30,7 +41,9 @@
              <tree string="Students">
                  <field name="firstname"/>
                  <field name="lastname"/>
+                 <field name="weighted_average"/>
                  <field name="training_id" />
+                 <field name="mark_ids"/>
              </tree>
          </field>
      </record>
